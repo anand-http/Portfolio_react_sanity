@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-
+// import Socialmedia from '../../components/Socialmedia';
 import { images } from '../../constants';
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { AppWrap, AppWrap2, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
 import './Footer.scss';
 
@@ -41,7 +41,7 @@ const Footer = () => {
       <h2 className="head-text">Take a coffee & chat with me</h2>
 
       <div className="app__footer-cards">
-      
+
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
           <a href="mailto:rishusingh9369@gmail.com" className="p-text">rishusingh9369@gmail.com</a>
@@ -71,6 +71,7 @@ const Footer = () => {
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
+
         </div>
       ) : (
         <div>
@@ -79,12 +80,13 @@ const Footer = () => {
           </h3>
         </div>
       )}
+     
     </>
   );
 };
 
-export default AppWrap(
+export default AppWrap2(AppWrap(
   MotionWrap(Footer, 'app__footer'),
   'contact',
   'app__whitebg',
-);
+));
