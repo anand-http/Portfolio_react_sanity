@@ -41,7 +41,7 @@ const Socialmedia = () => {
        target="_blank" rel="noreferrer"><BsInstagram /></a> 
         
       </div>
-
+     
     </div>
   )
 }
