@@ -12,7 +12,7 @@ const AppWrap2 = (Component, idName, classNames) => function HOC() {
       <SocialMedia />
 
       <div className="copyright">
-        <p className="p-text"> Copyright @ 2023 RISHU All rights reserved</p>
+        <p className="p-text"> Copyright @ 2023 Anand All rights reserved</p>
       </div>
 
     </div>
