@@ -130,6 +130,12 @@
   }
 }
 
+@media screen and (max-width:768px) {
+  .app__work-hover{
+    opacity: 1;
+  }
+  
+}
 .app__work-content {
   padding: 0.5rem;
   width: 100%;
