@@ -7,14 +7,14 @@ const Socialmedia = () => {
     <div className='app__social'>
       <div className='app__socialmedia'>
 
-       <a href="https://twitter.com/Anand_FitDev" 
+       <a href="https://twitter.com/anand_http" 
        target="_blank" rel="noreferrer"><BsTwitter/></a> 
 
       </div>
 
       <div className='app__socialmedia'>
 
-       <a href="https://github.com/anandFitdev" 
+       <a href="https://github.com/anand-http" 
        target="_blank" rel="noreferrer"><FaGithub/></a> 
 
       </div>
@@ -32,12 +32,12 @@ const Socialmedia = () => {
         
       </div>
       <div className='app__socialmedia'>
-      <a href="https://www.youtube.com/@AnandFitDev" 
+      <a href="https://www.youtube.com/@anand_http" 
        target="_blank" rel="noreferrer"><BsYoutube /></a> 
         
       </div>
       <div className='app__socialmedia'>
-      <a href="https://www.instagram.com/anand_fitdev/" 
+      <a href="https://www.instagram.com/anand_http/" 
        target="_blank" rel="noreferrer"><BsInstagram /></a> 
         
       </div>
